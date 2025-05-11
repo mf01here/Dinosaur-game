@@ -1,0 +1,12 @@
+[package]
+name = "dinosaur-game"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name"]
+description = "A Chrome Dinosaur Game clone written in Rust"
+
+[dependencies]
+ggez = "0.9"        # Game engine
+rand = "0.8"        # Random number generation
+serde = { version = "1.0", features = ["derive"] }  # Serialization
+serde_json = "1.0"  # JSON support for saving high scores 
